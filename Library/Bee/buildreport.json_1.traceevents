@@ -1,0 +1,533 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1656379509139577, "dur": 4238318, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379509140866, "dur": 22929, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379509163945, "dur": 63364, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379509227332, "dur": 240387, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379509467721, "dur": 3900361, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379513368101, "dur": 9793, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379517288079, "dur": 1719457, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379517288314, "dur": 15430, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379517303749, "dur": 62187, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379517365938, "dur": 528691, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379517894632, "dur": 1099414, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379518994048, "dur": 13487, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379519007844, "dur": 22, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1656379517755392, "dur": 128260, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656379517756356, "dur": 38731, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656379517869507, "dur": 4075, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656379517873586, "dur": 10060, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656379517874259, "dur": 9008, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656379517887573, "dur": 1875, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656379517886801, "dur": 2684, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379519007950, "dur": 103, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1656379517936935, "dur":604, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379517937547, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1656379517937598, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1656379517937613, "dur":258, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1656379517937891, "dur":406, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379517938297, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977220, "dur":158, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977378, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977388, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977391, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977396, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977397, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977403, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977404, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977409, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977410, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977415, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977416, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977421, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977421, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977427, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977428, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977433, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977446, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518977493, "dur":848, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1656379517938111, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379517938303, "dur":1306, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379517939618, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656379517939619, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379517939645, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656379517939650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379517939847, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656379517942498, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1656379517942706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379517942748, "dur":6739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1656379517949504, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1656379517949546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379517949555, "dur":51352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1656379518000920, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1656379518000947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518000952, "dur":11986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1656379518012958, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1656379518013028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518013033, "dur":79282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1656379518092333, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518092354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518092362, "dur":44901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518137278, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518137298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518137305, "dur":40735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518178057, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518178073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518178098, "dur":99267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518277383, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518277401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518277409, "dur":28631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518306054, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518306067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518306072, "dur":25689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518331778, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518331800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518331808, "dur":39459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518371281, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518371296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518371302, "dur":32268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518403587, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518403602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518403610, "dur":22264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518425888, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518425902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518425907, "dur":20280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518446199, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518446213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518446240, "dur":123871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518570127, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518570142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518570147, "dur":85540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518655703, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518655722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518655730, "dur":31061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518686803, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518686816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656379518686822, "dur":161099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656379518847937, "dur":129291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379517938136, "dur":172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379517938309, "dur":1305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379517939617, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1656379517939671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379517944736, "dur":4952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1656379517949703, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1656379517949726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379517949730, "dur":171212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1656379518120961, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518120987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518120995, "dur":96729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518217742, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518217760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518217768, "dur":18582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518236373, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518236391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518236399, "dur":35363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518271779, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518271800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518271808, "dur":60197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518332019, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518332032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518332038, "dur":24284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518356340, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518356358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518356366, "dur":36556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518392943, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518392958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518392966, "dur":58783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518451766, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518451785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518451792, "dur":39284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518491095, "dur":214351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518705452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518705462, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518706438, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518706453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518706459, "dur":113173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656379518819650, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1656379518819742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518819803, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1656379518820427, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1656379518820442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518820448, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1656379518821153, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656379518821168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518821173, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656379518821629, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1656379518821643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518821648, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1656379518822821, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656379518822844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518822850, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656379518824926, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1656379518825015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518825036, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1656379518825584, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1656379518825597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518825602, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1656379518826399, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656379518826414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518826420, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1656379518827053, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1656379518827066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518827071, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1656379518827729, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1656379518827819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518827824, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1656379518828352, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1656379518828374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656379518828379, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1656379518828900, "dur":148315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379517938131, "dur":174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379517938305, "dur":1311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379517939618, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1656379517939665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379517940112, "dur":8052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1656379517948184, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656379517948224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379517948233, "dur":52530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656379518000781, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656379518000819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518000830, "dur":11063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656379518011914, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518011958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518011968, "dur":58487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518070475, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518070501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518070515, "dur":26777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518097310, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518097326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518097352, "dur":38934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518136305, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518136326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518136334, "dur":31340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518167698, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518167724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518167732, "dur":130541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518298292, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518298310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518298319, "dur":34263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518332595, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518332616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518332622, "dur":18847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518351490, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518351512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518351521, "dur":17344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518368887, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518368904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518368912, "dur":20904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518389885, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518389904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518389908, "dur":23694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518413621, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518413639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518413647, "dur":98281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518511945, "dur":1075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518513024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518513032, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518513615, "dur":33232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518546851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518546857, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518547394, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518548043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518548050, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518548526, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518549001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518549010, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518549500, "dur":20052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518569559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518569569, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518570634, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518570648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518570653, "dur":138248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518708919, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518708935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518708943, "dur":102946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518811908, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518811923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656379518811932, "dur":131984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656379518943932, "dur":33286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379517938150, "dur":161, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379517938311, "dur":1304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379517939618, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1656379517939702, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379517945082, "dur":55693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1656379518000792, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1656379518000843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518000850, "dur":178889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1656379518179758, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518179784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518179791, "dur":61764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518241573, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518241589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518241597, "dur":63907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518305520, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518305536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518305543, "dur":32362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518337921, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518337938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518337947, "dur":21512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518359475, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518359498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518359506, "dur":20253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518379775, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518379793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518379801, "dur":20345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518400165, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518400181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518400187, "dur":26862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518427062, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518427076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518427081, "dur":27177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518454273, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518454298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518454305, "dur":22206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518476528, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518476546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518476553, "dur":49798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518526367, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518526983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518526991, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518527430, "dur":43597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518571031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518571037, "dur":446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518571497, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518571511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518571516, "dur":120333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518691870, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518691903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518691911, "dur":35186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518727113, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518727131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518727139, "dur":88953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518816108, "dur":26472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518842587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656379518842596, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656379518843126, "dur":134106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379517938164, "dur":150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379517938314, "dur":1303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379517939617, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1656379517939661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379517940040, "dur":171134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1656379518111194, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518111212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518111221, "dur":21910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518133153, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518133184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518133194, "dur":35230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518168442, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518168458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518168464, "dur":110531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518279011, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518279026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518279034, "dur":43516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518322566, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518322584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518322592, "dur":24474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518347083, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518347099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518347107, "dur":42932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518390056, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518390071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518390076, "dur":24488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518414580, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518414596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518414603, "dur":19048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518433668, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518433686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518433693, "dur":21573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518455281, "dur":42030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518497317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518497327, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518497879, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518498935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518498942, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518499450, "dur":38621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518538077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518538087, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518538637, "dur":15710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518554353, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518554364, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518554915, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518554930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518554935, "dur":205517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518760468, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518760483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518760491, "dur":33916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518794423, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518794438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656379518794446, "dur":182724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656379518977191, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1656379518977193, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379517938184, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379517938317, "dur":1297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379517939618, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1656379517939675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379517944890, "dur":55878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1656379518000782, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656379518000846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518000853, "dur":11189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656379518012057, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518012092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518012096, "dur":178324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518190435, "dur":123261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518313702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518313712, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518314894, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518314911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518314918, "dur":22993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518337925, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518337940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518337947, "dur":34635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518372597, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518372612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518372619, "dur":98967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518471604, "dur":75170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518546781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518546791, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518548017, "dur":23397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518571474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518571481, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518572081, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518572096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518572101, "dur":70227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518642344, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518642361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518642369, "dur":89551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518731936, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518731951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518731959, "dur":93566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656379518825541, "dur":5504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1656379518831049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656379518831055, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1656379518831549, "dur":145687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379517938191, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379517938319, "dur":1294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379517939617, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1656379517939669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379517944525, "dur":56414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1656379518000987, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1656379518001040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518001045, "dur":29065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1656379518030132, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D.exe" }}
+,{ "pid":12345, "tid":7, "ts":1656379518030156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518030163, "dur":24725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D.exe" }}
+,{ "pid":12345, "tid":7, "ts":1656379518054901, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518054918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518054924, "dur":21138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518076077, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518076096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518076104, "dur":43102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518119223, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518119247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518119253, "dur":44973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518164244, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518164263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518164271, "dur":98197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518262485, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518262502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518262510, "dur":108117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518370647, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518370663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518370670, "dur":19072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518389769, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518389787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518389795, "dur":19412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518409228, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518409256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518409265, "dur":17674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518426957, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518426978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518426985, "dur":38477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518465479, "dur":95119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518560605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518560615, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518561401, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518561418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518561423, "dur":52137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518613578, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518613594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518613601, "dur":72483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518686101, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518686118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656379518686125, "dur":170654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656379518856795, "dur":120429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379517938205, "dur":117, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379517938322, "dur":1304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379517939627, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1656379517939668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379517944388, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1656379517950117, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1656379517950139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379517950175, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1656379517951453, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1656379517951506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379517951537, "dur":49956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1656379518001553, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518001591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518001621, "dur":33845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518035484, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1656379518035525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518035572, "dur":18392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1656379518053984, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518054007, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518054030, "dur":65020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518119069, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518119098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518119107, "dur":31349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518150475, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518150493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518150502, "dur":21413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518171931, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518171948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518171956, "dur":18315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518190296, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518190315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518190323, "dur":162026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518352364, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518352383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518352390, "dur":46798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518399207, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518399225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518399233, "dur":26448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518425698, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518425715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518425723, "dur":19926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518445668, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518445684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518445692, "dur":35984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518481691, "dur":67672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518549367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518549373, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518549950, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518550629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518550638, "dur":506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518551156, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518551173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518551178, "dur":85326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518636522, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518636540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518636548, "dur":29588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518666154, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518666171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518666179, "dur":160539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656379518826732, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1656379518826762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518826767, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1656379518827267, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1656379518827281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518827285, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1656379518827797, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1656379518827810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518827815, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1656379518828411, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1656379518828486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656379518828490, "dur":366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1656379518828866, "dur":148350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656379518979054, "dur":1277, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1656379519008083, "dur": 394, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656379519007833, "dur": 661, "ph": "X", "name": "Write chrome-trace events", "args": {} },
