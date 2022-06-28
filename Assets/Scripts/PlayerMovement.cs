@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerable<Vector3Int> targetPositions => prevPositions.Select(y => y.targetPosition);
     private bool EatingYourself => targetPositions.Contains(currPositionInt);
-    private bool OutsideBoundingBox => (new List<int>(){ currPositionInt.x,currPositionInt.y,currPositionInt.z }).Any(x => x > 9 || x < 0);
+    private bool OutsideBoundingBox => (currPositionInt.x > 9 || currPositionInt.x < 0) || (currPositionInt.y > 9 || currPositionInt.y < 1) || (currPositionInt.z > 9 || currPositionInt.z < 0);
     private Camera mainCamera;
     private Camera mountedCam1;
     private Camera mountedCam2;
@@ -93,10 +93,6 @@ public class PlayerMovement : MonoBehaviour
                 directionToGo = Directions.Left;
             } else if(Input.GetKeyDown(KeyCode.D)){
                 directionToGo = Directions.Right;
-            }
-
-            if(Input.GetKeyDown(KeyCode.Q)){
-                AddNewTrailingSphere();
             }
 
             if(Input.GetKeyDown(KeyCode.Escape)){
