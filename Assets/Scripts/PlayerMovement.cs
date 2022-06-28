@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerable<Vector3Int> targetPositions => prevPositions.Select(y => y.targetPosition);
     private bool EatingYourself => targetPositions.Contains(currPositionInt);
-    //private bool OutsideBoundingBox => 
+    private bool OutsideBoundingBox => (new List<int>(){ currPositionInt.x,currPositionInt.y,currPositionInt.z }).Any(x => x > 9 || x < 0);
     private Camera mainCamera;
     private Camera mountedCam1;
     private Camera mountedCam2;
@@ -48,14 +48,14 @@ public class PlayerMovement : MonoBehaviour
         mountedCam1.enabled = true;
         mountedCam2.enabled = true;
 
-        apple.position = NewApplePos();
         Instantiate();
+        apple.position = NewApplePos();
     }
 
     void Update()
     {
         if(distanceToMovePoint == 0f){
-            if(EatingYourself){
+            if(EatingYourself || OutsideBoundingBox){
                 Die();
                 return;
             }
@@ -86,16 +86,12 @@ public class PlayerMovement : MonoBehaviour
 
         } else {
             if(Input.GetKeyDown(KeyCode.W)){
-                Debug.Log("W");
                 directionToGo = Directions.Up;
             } else if(Input.GetKeyDown(KeyCode.S)){
-                Debug.Log("S");
                 directionToGo = Directions.Down;
             } else if(Input.GetKeyDown(KeyCode.A)){
-                Debug.Log("A");
                 directionToGo = Directions.Left;
             } else if(Input.GetKeyDown(KeyCode.D)){
-                Debug.Log("D");
                 directionToGo = Directions.Right;
             }
 
