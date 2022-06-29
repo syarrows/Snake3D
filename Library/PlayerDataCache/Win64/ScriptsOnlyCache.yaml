@@ -979,4 +979,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Game.unity
-  playerPath: F:/Unity/Snake 3D/Snake 3D/bin/Snake 3D.exe
+  playerPath: F:/Snake 3D/Snake 3D/bin/Snake 3D.exe
